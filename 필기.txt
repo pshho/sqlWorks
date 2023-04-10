@@ -1,0 +1,15 @@
+RDBMS()(Releation) - 관계형 데이터 베이스/객체, 관계형 데이터베이스(발전된 형태)
+
+* SQL 언어
+ - DDL: Data Definition Language(데이터 정의어)
+          (Create, Alter, Drop)
+ - DML: Data Manipulation Language(데이터 조작어)
+           (Insert, Select, Update, Delete → Commit, Rolback)
+ - DCL: Data Control Language(데이터 제어어)
+           (Grant, Revoke)
+
+ ▷ 부서 테이블
+  Create TABLE dept(
+       -- 칼럼이름 자료형
+       -- 부서코드 문자형
+ 	deptno VARCHAR2(10)
