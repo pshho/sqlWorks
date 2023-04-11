@@ -13,3 +13,10 @@ RDBMS()(Releation) - 관계형 데이터 베이스/객체, 관계형 데이터�
        -- 칼럼이름 자료형
        -- 부서코드 문자형
  	deptno VARCHAR2(10)
+
+* 집계함수
+ - count(칼럼이름)  count(*)
+ - sum()
+ - avg()
+ - max()
+ - min()
