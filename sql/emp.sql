@@ -7,10 +7,10 @@ CREATE TABLE emp(
     createdate DATE DEFAULT SYSDATE  -- 등록일
 );
 
--- 사원의 성별칼럼을 추가(ALTER ~ ADD 칼럼이름 자료형)
-ALTER TABLE emp add gender VARCHAR2(4);
+-- 사원의 성별칼럼을 추가(ALTER TABLE 테이블이름 ~ ADD 칼럼이름 자료형)
+ALTER TABLE emp ADD gender VARCHAR2(4);
 
--- 사원의 성별 자료형을 변경(MODIFY) VARCHAR2(10)
+-- 사원의 성별 자료형을 변경(MODIFY)
 ALTER TABLE emp MODIFY gender VARCHAR2(10);
 
 DESC emp;

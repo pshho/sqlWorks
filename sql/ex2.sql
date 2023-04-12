@@ -1,0 +1,16 @@
+-- 날짜 자료형
+CREATE TABLE ex2(
+    col_date DATE,
+    col_timestamp TIMESTAMP
+);
+
+-- 특정 날짜 직접 입력 예시
+-- hire_date VARCHAR2(20)
+-- INSERT INTO ex2 VALUES ('2023-01-25');
+
+-- 자료 삽입
+-- SYSDATE, SYSTIMESTAMP: 현재 시간
+INSERT INTO ex2 VALUES (SYSDATE, SYSTIMESTAMP);
+INSERT INTO ex2 VALUES (SYSDATE, SYSTIMESTAMP);
+
+SELECT * FROM ex2;
