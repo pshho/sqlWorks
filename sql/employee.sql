@@ -33,6 +33,9 @@ INSERT INTO employee VALUES(
 INSERT INTO employee VALUES(
     105, '강남', 2600000, SYSDATE, '남자', '1000'
 );
+INSERT INTO employee VALUES(
+    106, '이해', 2500000, SYSDATE, '남자', '1000'
+);
 
 -- 사원자료검색
 SELECT * FROM employee;
